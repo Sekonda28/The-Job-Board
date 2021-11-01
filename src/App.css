@@ -1,0 +1,91 @@
+body {
+  max-width: 1440px;
+  margin: 0 auto;
+  font-family: 'Roboto', sans-serif;
+  background-color: #E5E5E5;
+}
+
+h2 {
+  font-size: 28px;
+  font-weight: normal;
+}
+
+.App {
+  background-color: white;
+}
+
+
+.Title {
+  display: flex;
+  background-color: #333333;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  height: 98px;
+}
+
+
+.jobs-section {
+  display: flex;
+  max-width: 1040px;
+  flex-wrap: wrap;
+  margin: 0 auto;
+
+}
+
+.Job {
+  height: 320px;
+  width: 320px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 20px 0px 20px 20px;
+  padding: 5px 20px;
+  box-sizing: border-box;
+}
+
+.Job:nth-child(3),
+.Job:nth-child(6),
+.Job:nth-child(9) {
+  margin-right: 0px;
+}
+
+.red {
+  border: 10px solid red;
+}
+
+.green {
+  border: 10px solid green;
+}
+
+.yellow {
+  border: 10px solid yellow;
+}
+
+.blue {
+  border: 10px solid deepskyblue;
+}
+
+.pink {
+  border: 10px solid pink
+}
+
+.Footer {
+  background-color: #DDDDDD;
+  height: 63px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0px;
+}
+
+.Footer span {
+  font-weight: 700;
+}
+
+@media(max-width: 680px) {
+  .jobs-section {
+    justify-content: center;
+  }
+}
